@@ -12,9 +12,9 @@ body {
   }
 .container{
     margin: 0 auto;
-    max-width:60vw;
+    max-width:65vw;
     text-align: center;
-      text-align: center;
+    text-align: center;
     background:#fff;
     padding:20px;
     margin-top:15vh;
@@ -58,7 +58,7 @@ transform: scale(1.05);
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    z-index: 10;
     
     
 
@@ -77,3 +77,14 @@ i:hover{
 p{
     font-weight: 600;
 }
+
+
+  @media (max-width: 1200px) {
+    .container{
+      max-width:100vw;
+      margin-top:10vh;
+    }
+    body{
+        font-size:14px;
+    }
+  }
